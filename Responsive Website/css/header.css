@@ -1,0 +1,107 @@
+
+#header{
+
+      position: absolute;
+      width: 100%;
+}
+
+.logo{
+      float: left;
+      width: 100%;
+      margin-top: 6px;
+      text-align: left;
+      padding: 0 0 25px;
+}
+
+.logo img{
+      max-width: 100%;
+      height: auto;
+}
+
+.header-1{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      z-index: 99999;
+      background: transparent;
+      padding: 21px 40px 0 24px;
+      border-bottom: 1px solid rgba(163, 163, 163, 0.281);
+      transition: all ease 1s;
+}
+
+.header-1.fixedbar{
+      position: fixed !important;
+      background:rgba(26, 25, 25, 0.753);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);  
+      padding: 10px 40px 0 24px;
+}
+
+
+.mainmenu{
+      position: relative;
+      font-family: 'Roboto Condensed', sans-serif;
+}
+
+.mainmenu ul{
+      margin: 0;
+      padding: 0;
+}
+
+.mainmenu ul li{
+      list-style: none;
+      display: inline-block;
+      line-height: 0.8;
+      padding: 25px 20px 18px;
+      position: relative;
+}
+
+.mainmenu ul li a{
+      display: block;
+      color: white;
+      font-size: 16px;
+      line-height: 0.8;
+      position: relative;
+      text-decoration: none;
+      padding: 0;
+      letter-spacing: 1px;
+}
+
+.mainmenu ul li a:after{
+      position: absolute;
+      width: 0;
+      height: 1px;
+      content: '';
+      background: white;
+      left: 0;
+      right: 0;
+      bottom: -5px;
+      transition: all 0.4s ease-out;
+}
+
+.mainmenu ul li a:hover{
+      color: white;
+}
+
+.mainmenu ul li a:hover:after{
+      width: 100%;
+}
+
+.navigator {
+      position: relative;
+      padding: 21px 0 12px;
+      float: right;
+}
+
+.navigator a{
+      display: inline-block;
+      color: white;
+      line-height: 0.8;
+      font-size: 25px;
+      margin: 0;
+}
+
+.navigator a.search{
+      margin-top: 16px;
+}

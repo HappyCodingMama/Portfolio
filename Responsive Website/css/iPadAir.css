@@ -1,0 +1,260 @@
+
+.service-section{
+      color:#333;
+      padding: 200px;
+      height:1000px;
+
+}
+
+.sec_title{
+      font-size: 50px;
+      line-height: 56px;
+      font-weight: 700;
+      text-transform: capitalize;
+      margin: 0 025;
+      padding: 5px 0;
+      color: #333;
+}
+
+.color_discription{
+      color: darkgray;
+      line-height: 18px;
+      font-size: 16px;
+      font-family: 'Roboto Condensed', sans-serif;
+      letter-spacing: 1px;
+}
+
+.row.custom_column .col-lg-3.col-sm-4.col-md-3{
+      width: 20% !important;
+      flex: 0 0 20%;
+}
+
+.box{
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      background: transparent;
+      perspective: 1000;
+      transform-style: preserve-3d;
+      transition: all ease 400ms;
+}
+
+.box .flipper{
+      transform-origin: 100% 213.5px;
+      margin-top: 60px;
+}
+
+.box .front i,
+.box .back i{
+      font-size: 64px;
+      line-height: 1;
+      color: #aaaaaa;
+      display: block;
+      margin-bottom: 17px;
+      transition: all ease 400ms;
+}
+
+.box .front h3,
+.box .back h3{
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #aaaaaa;
+      margin: 0;
+      transition: all ease 400ms;
+}
+
+.flipper{
+      transform: perspective(1000px);
+      transition: 0.6s;
+      transform-style: preserve-3d;
+      position: relative;
+}
+
+.front, .back{
+      backface-visibility: hidden;
+      transition: 0.6s;
+      transform-style: preserve-3d;
+      transform: rotateY(0deg);
+      position: absolute;
+      top:0;
+      left: 0;
+}
+
+.front{
+      background: #f0f0f0;
+      transform: rotateY(0deg);
+      -webkit-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      z-index: 2;
+      border-radius: 20px;
+      padding: 200px 45px 45px;
+      width: 100%;
+}
+
+.back{
+      background: #0051ff;
+      transform:rotateY(-180deg);
+      position: relative;
+      border-radius: 20px;
+      padding: 200px 45px 45px;
+      width: 100%;
+}
+
+.box:hover .front{
+      transform: rotateY(180deg);
+}
+
+.box:hover .back{
+      transform: rotateY(0deg);
+}
+
+.box .back h3,
+.box .back i{
+      color: white;
+}
+
+a.box.text-center{
+      text-decoration: none;
+}
+
+#bottle{
+      height:1200px;
+}
+#story-freext{
+      height:1200px;
+      background-color: #f0f0f0;
+}
+
+#story-freext>div:nth-of-type(1){
+      background: url(..//img/iPadAir-right.png) 50% 0 no-repeat fixed;
+      margin: 0;
+      height: 1600px;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      transform: translateX(-250px);
+
+}
+
+#story-freext>div:nth-of-type(2){
+      background: url(..//img/iPadAir.png) 50% 0 no-repeat fixed;
+
+      margin: 0;
+      height: 1600px;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 100px;
+      z-index: 5;
+}
+
+#bottle>div:nth-of-type(1){
+      background: url(..//img/iPadAir-bg.png) 50% 0 no-repeat fixed;
+      margin: 0;
+      height: 1200px;
+      background-size: cover;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+}
+
+#bottle h1 {
+      
+      color: #2e2c2c;
+      width: 400px;
+      font-size: 50px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      line-height: 30px;
+}
+
+#bottle span,#story-freext span{
+      font-size: 26px;
+      line-height: 6px;
+      font-weight: 500;
+}
+
+
+#bottle p{
+      color: #2e2c2c;
+      width: 300px;
+      font-size: 14px;
+      line-height: 18px;
+}
+
+
+
+#bottle article{
+      position: absolute;
+      top: 280px;
+      left: 180px;
+      width: 500px;
+      z-index: 4;
+}
+
+#story-freext article{
+      position: absolute;
+      width: 500px;
+      top: 600px;
+      right: 100px;
+      text-align: right;
+}
+
+#story-freext {
+      color: #2e2c2c;
+      }
+      
+
+#story-freext h1{
+
+      font-size: 50px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      line-height: 50px;
+
+}
+
+#story-freext strong{
+      font-size: 26px;
+      font-weight: 500;
+}
+
+#story-freext p{
+      font-size: 14px;
+      line-height: 18px;
+}
+#story-freext img {
+      width:15%;
+      color: black;
+}
+#story-freext span{
+      font-size: 14px;
+}
+
+#bottle article.two{
+      position: absolute;
+      top:240px;
+      left: 40px;
+      width: 500px;
+      z-index: 4;
+
+}
+.parallax-item{
+      position: absolute;
+      z-index: 5;
+      top: 40px;
+      left: 400px;
+}
+
+#bottle, #story-freext {
+      position: relative;
+      width: 100% !important;
+      min-width: 1000px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+}

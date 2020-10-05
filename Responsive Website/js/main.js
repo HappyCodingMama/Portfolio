@@ -26,3 +26,7 @@ function showSlides(n) {
       }
       slides[slideIndex - 1].style.display = "block";
 }
+
+$(document).ready(function () {
+      $('.parallax').scrolly({ bgParallax: true });
+});
