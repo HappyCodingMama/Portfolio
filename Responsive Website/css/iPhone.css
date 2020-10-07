@@ -1,3 +1,141 @@
-.tabs {
-      color:#333;
+.p-large{
+      color: #f1f1f8;
+      font: 200 1rem/1.5rem;
+}
+
+.p-heading{
+      margin-bottom: 3.75rem;
+      text-align: center;
+}
+
+
+.tabs{
+      padding-top: 6.5rem;
+      padding-bottom: 4.25rem;
+      background-color: #252525;
+}
+
+.tabs .nav-tabs{
+      margin-right: auto;
+      margin-bottom: 2.5rem;
+      margin-left: auto;
+      justify-content: center;
+      border-bottom: none;
+}
+
+.tabs .nav-link{
+      margin-bottom: 1rem;
+      padding: 0.5rem 1.375rem 0.25rem 1.375rem;
+      border: none;
+      border-radius: 0;
+      border-bottom: 0.1875rem solid #f1f1f8;
+      color: #f1f1f8;
+      font: 700 1rem/1.75rem;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      font-family: 'Oswald', sans-serif;
+}
+
+.tabs .nav-link.active,
+.tabs .nav-link:hover{
+      border-bottom: 0.1875rem solid #6f6cff;
+      background-color: transparent;
+      color:  #6f6cff;
+}
+
+.tabs .nav-link .fa{
+      margin-right:0.375rem;
+      font-size: 1rem;
+}
+
+.tabs .card{
+     border: none;
+     background: transparent; 
+}
+
+.tabs .card-body{
+      margin-bottom: 0;
+
+}
+
+.tabs .card .card-icon{
+      display: inline-block;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      border:1.6px solid #5a5a5a;
+      background-color:transparent;
+      text-align: center;
+      vertical-align: top;
+}
+
+.tabs .card .card-icon .fa{
+      color:#5a5a5a;
+      font-size: 1rem;
+      line-height: 1.9rem;
+}
+
+.card-title{
+font-size: 1.4rem;
+font-weight: 500;
+margin-bottom: 5px;
+color: #ffffff;
+}
+
+.tabs p{
+      font-size: 1rem;
+      font-weight: 100;   
+      letter-spacing: 1px;
+      line-height: 23px;
+      font-family: 'Oswald', sans-serif;
+}
+
+.tabs .card.left-pane .text-wrapper{
+      display: inline-block;
+      width: 95%;
+      text-align: right;
+}
+
+.tabs .card.left-pane .card-icon{
+   float: none;
+   margin-right: 0;
+   margin-left: 1rem;
+}
+
+.tabs img{
+      display: block;
+      margin: 0.3rem auto 3rem auto;
+}
+
+.tabs .card.right-pane .text-wrapper{
+      display: inline-block;
+      width: 95%;
+      margin-left: 1rem;
+}
+
+.tabs .card .card-icon{
+      width: 2rem;
+      height: 2rem;
+}
+
+.tabs .icon-cards-area .card {
+      display: inline-block;
+      width: 80%;
+      margin-right: 2.5rem;
+      vertical-align: top;
+}
+
+.tabs .card.left-pane .text-wrapper,
+.tabs .card.right-pane .text-wrapper{
+      width: 70%;
+}
+
+ .tabs .tab-pane.fade .text-area3{
+      text-align: right;
+      margin-bottom: 80px;
+}
+
+.tabs .tab-pane.fade .card-body3{
+      text-align: right;  
+      margin-bottom: 10px;
 }

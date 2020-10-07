@@ -121,6 +121,7 @@ a.box.text-center{
 
 #bottle{
       height:1200px;
+      background-color: #2a2e35;
 }
 #story-freext{
       height:1200px;
@@ -141,7 +142,6 @@ a.box.text-center{
 
 #story-freext>div:nth-of-type(2){
       background: url(..//img/iPadAir.png) 50% 0 no-repeat fixed;
-
       margin: 0;
       height: 1600px;
       position: absolute;
@@ -164,7 +164,7 @@ a.box.text-center{
 
 #bottle h1 {
       
-      color: #2e2c2c;
+      color: #f0f0f0;
       width: 400px;
       font-size: 50px;
       font-weight: 700;
@@ -180,7 +180,7 @@ a.box.text-center{
 
 
 #bottle p{
-      color: #2e2c2c;
+      color:  #f0f0f0;
       width: 300px;
       font-size: 14px;
       line-height: 18px;
