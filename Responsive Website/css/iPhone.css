@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
+
 .p-large{
       color: #f1f1f8;
       font: 200 1rem/1.5rem;
@@ -49,31 +52,14 @@
 }
 
 .tabs .card{
-     border: none;
-     background: transparent; 
-}
-
-.tabs .card-body{
-      margin-bottom: 0;
-
-}
-
-.tabs .card .card-icon{
-      display: inline-block;
-      width: 2.5rem;
-      height: 2.5rem;
-      border-radius: 50%;
-      border:1.6px solid #5a5a5a;
-      background-color:transparent;
-      text-align: center;
-      vertical-align: top;
-}
-
-.tabs .card .card-icon .fa{
-      color:#5a5a5a;
-      font-size: 1rem;
-      line-height: 1.9rem;
-}
+      border: none;
+      background: transparent; 
+ }
+ 
+ .tabs .card-body{
+       margin-bottom: 1rem;
+ 
+ }
 
 .card-title{
 font-size: 1.4rem;
@@ -96,46 +82,36 @@ color: #ffffff;
       text-align: right;
 }
 
-.tabs .card.left-pane .card-icon{
-   float: none;
-   margin-right: 0;
-   margin-left: 1rem;
-}
 
 .tabs img{
       display: block;
       margin: 0.3rem auto 3rem auto;
 }
 
-.tabs .card.right-pane .text-wrapper{
-      display: inline-block;
-      width: 95%;
-      margin-left: 1rem;
-}
-
-.tabs .card .card-icon{
-      width: 2rem;
-      height: 2rem;
-}
-
-.tabs .icon-cards-area .card {
-      display: inline-block;
-      width: 80%;
-      margin-right: 2.5rem;
-      vertical-align: top;
-}
 
 .tabs .card.left-pane .text-wrapper,
 .tabs .card.right-pane .text-wrapper{
-      width: 70%;
+      width: 100%;
 }
 
  .tabs .tab-pane.fade .text-area3{
       text-align: right;
-      margin-bottom: 80px;
+      margin-bottom: 100px;
 }
 
 .tabs .tab-pane.fade .card-body3{
       text-align: right;  
+      margin-bottom: 10px;
+}
+
+
+.tabs .tab-pane.fade .text-area2{
+      padding: 10px 0;
+      text-align: left;
+      margin-bottom: 120px;
+}
+
+.tabs .tab-pane.fade .card-body2{
+      text-align: left;  
       margin-bottom: 10px;
 }
