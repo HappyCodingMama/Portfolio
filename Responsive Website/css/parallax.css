@@ -1,0 +1,25 @@
+.parallax-setting{
+      background-image: url(..//img/parallax-bg.jpg);
+      padding: 150px 150px;
+      background-attachment: fixed;
+}
+
+.parallax-setting h2{
+      font-size: 45px;
+      font-weight: 400;
+}
+
+
+.parallax-setting a{
+      background: #00bcd4;
+      padding: 14px 35px;
+      border-radius: 50px;
+      transition: all 0.3s ease-in;
+}
+
+.parallax-setting a:hover{
+      border: 2px solid #00bcd4;
+      text-decoration: none;
+      background: transparent;
+}
+

@@ -239,6 +239,16 @@ opacity: 1;
   color: #f1f1f8;
 }
 
+
+.lightbox-basic button.mfp-close.x-button{
+  position: absolute;
+  top: -0.375rem;
+  right: -0.375rem;
+  width: 2.75rem;
+  height: 2.75rem;
+  color: #f1f1f8;
+}
+
 .my-mfp-slide-bottom .zoom{
   opacity: 0;
   transition: all 0.2s ease-out;
