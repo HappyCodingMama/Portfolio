@@ -23,3 +23,57 @@
       background: transparent;
 }
 
+.flipster-carousel{
+      display: none;
+      color: #333;
+}
+
+.flip-item{
+      width: 420px;
+}
+
+.flip-item .item-inner{
+      padding: 2rem;
+      border: 1px solid #efefef;
+      background: white;
+
+}
+
+.flip-item .source-profile{
+      width: 80px;
+      height: 80px;
+}
+
+.flip-item .source-info{
+      font-size: 1rem;
+      margin-right: 20px;
+}
+
+.flipster--coverflow .flipster__item__content{
+      -webkit-box-reflect: unset;
+}
+
+.flipster__button{
+      width: 40px;
+      height: 40px;
+      margin-top: -3rem;
+      background: #212b35;
+      border-radius: 50%;
+}
+
+.flipster__button svg{
+      width: 1rem;
+      stroke: white;
+}
+
+.flipster__button svg:hover{
+      stroke: white;
+}
+
+.pt-5 a{
+      padding: 12px 30px;
+      border-radius: 50px;
+      background: transparent;
+      border: 2px solid #00c9db;
+      color: #00c9db;
+}
