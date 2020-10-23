@@ -125,7 +125,7 @@ a.box.text-center{
 }
 #story-freext{
       height:1200px;
-      background-color: #f0f0f0;
+      background-color: #fff7f7;
 }
 
 #story-freext>div:nth-of-type(1){
@@ -152,7 +152,7 @@ a.box.text-center{
 }
 
 #bottle>div:nth-of-type(1){
-      background: url(..//img/iPadAir-bg.png) 50% 0 no-repeat fixed;
+      background: url(..//img/iPadAir-bg.jpg) 50% 0 no-repeat fixed;
       margin: 0;
       height: 1200px;
       background-size: cover;

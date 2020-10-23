@@ -1,24 +1,25 @@
 .parallax-setting{
       background-image: url(..//img/parallax-bg.jpg);
       padding: 150px 150px;
+      height: 1000px;
       background-attachment: fixed;
 }
 
-.parallax-setting h2{
-      font-size: 45px;
-      font-weight: 400;
+.parallax-setting h1{
+      font-size: 70px;
+      font-weight: 700;
 }
 
 
 .parallax-setting a{
-      background: #00bcd4;
+      background: rgba(0, 0, 0, 0.6);
       padding: 14px 35px;
       border-radius: 50px;
       transition: all 0.3s ease-in;
 }
 
 .parallax-setting a:hover{
-      border: 2px solid #00bcd4;
+      border: 2px solid #ffffff;
       text-decoration: none;
       background: transparent;
 }
@@ -74,6 +75,6 @@
       padding: 12px 30px;
       border-radius: 50px;
       background: transparent;
-      border: 2px solid #00c9db;
-      color: #00c9db;
+      border: 2px solid  #ffffff;
+      color: #ffffff;
 }
