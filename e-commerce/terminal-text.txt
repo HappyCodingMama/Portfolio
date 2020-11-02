@@ -1,2 +1,13 @@
 [amazon-clone]
 1. npx create-react-app amazon-clone
+2. cd amazon-clone
+3. npm start
+
+from Firebase 4. npm install -g firebase-tools 
+*at Firebase project settings -> Firebase SDK snippet : Automatic -> config 
+then, copy tags in the box
+make the firebase.js in the src folder
+
+
+https://www.youtube.com/watch?v=RDV3Z1KCBvo
+20:28
