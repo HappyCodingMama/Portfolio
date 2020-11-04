@@ -10,4 +10,4 @@ make the firebase.js in the src folder
 
 
 https://www.youtube.com/watch?v=RDV3Z1KCBvo
-20:28
+22:59
