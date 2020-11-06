@@ -35,6 +35,15 @@
   background-color: #f57c36;
 }
 
+.header__optionLineOne {
+  font-size: 10px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .header__option {
   display: flex;
   flex-direction: column;
