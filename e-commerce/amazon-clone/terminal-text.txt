@@ -18,5 +18,7 @@ search 'material-icons' in the Material-UI website
 download react-router-dom
 7.npm install react-router-dom
 
+8.npm i react-currency-format
+
 https://www.youtube.com/watch?v=RDV3Z1KCBvo
 1:50:20
