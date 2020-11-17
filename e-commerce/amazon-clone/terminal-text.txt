@@ -21,4 +21,4 @@ download react-router-dom
 8.npm i react-currency-format
 
 https://www.youtube.com/watch?v=RDV3Z1KCBvo
-2:31:17
+3:13:17
