@@ -20,5 +20,10 @@ download react-router-dom
 
 8.npm i react-currency-format
 
+
+from firebase for login & register form
+go Authentication -> Sign-in method -> change the status of email/password to Enabled
+9.npm i firebase
+
 https://www.youtube.com/watch?v=RDV3Z1KCBvo
 3:13:17
