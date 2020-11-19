@@ -29,6 +29,11 @@ const reducer = (state, action) => {
         );
       }
 
+      return {
+        ...state,
+        basket: newBasket,
+      };
+
     default:
       return state;
   }
