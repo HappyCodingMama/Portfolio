@@ -31,5 +31,9 @@ go Authentication -> Sign-in method -> change the status of email/password to En
 11. npm run build
 12. firebase deploy
 
+*flip move
+
+
+
 https://www.youtube.com/watch?v=RDV3Z1KCBvo
 4:30:24
