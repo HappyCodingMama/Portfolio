@@ -3,27 +3,33 @@
 2. cd amazon-clone
 3. npm start
 
-from Firebase 
+*from Firebase 
 4. npm install -g firebase-tools 
 *at Firebase project settings -> Firebase SDK snippet : Automatic -> config 
 then, copy tags in the box
 make the firebase.js in the src folder
 
 
-from Material-UI
+*from Material-UI
 5. npm install @material-ui/core
 search 'material-icons' in the Material-UI website
 6. npm install @material-ui/icons
 
-download react-router-dom
+*download react-router-dom
 7.npm install react-router-dom
 
 8.npm i react-currency-format
 
 
-from firebase for login & register form
+*from firebase for login & register form
 go Authentication -> Sign-in method -> change the status of email/password to Enabled
+
+*deploy to Firebase
 9.npm i firebase
+10. firebase init : Hosting -> existing Directory -> q: public directory  a: write "build" 
+->q:Configure a:Yes
+11. npm run build
+12. firebase deploy
 
 https://www.youtube.com/watch?v=RDV3Z1KCBvo
 4:30:24
