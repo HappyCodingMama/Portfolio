@@ -26,4 +26,4 @@ go Authentication -> Sign-in method -> change the status of email/password to En
 9.npm i firebase
 
 https://www.youtube.com/watch?v=RDV3Z1KCBvo
-3:13:17
+4:30:24
