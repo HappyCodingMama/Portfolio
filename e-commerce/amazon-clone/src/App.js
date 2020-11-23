@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import Header from "./Header";
+import Payment from "./Payment";
 import Home from "./Home";
 import Checkout from "./Checkout";
 import Login from "./Login";
@@ -37,16 +38,20 @@ function App() {
     // BEM
     <Router>
       <div className="app">
-        <Header />
-
         <Switch>
           <Route path="/login">
             <Login />
           </Route>
           <Route path="/checkout">
+            <Header />
             <Checkout />
           </Route>
+          <Route path="/payment">
+            <Header />
+            <Payment />
+          </Route>
           <Route path="/">
+            <Header />
             <Home />
           </Route>
         </Switch>
