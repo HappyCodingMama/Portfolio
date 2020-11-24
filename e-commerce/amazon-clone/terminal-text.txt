@@ -31,9 +31,26 @@ go Authentication -> Sign-in method -> change the status of email/password to En
 11. npm run build
 12. firebase deploy
 
-*flip move
+*payment using stripe.js
+13. npm i @stripe/stripe-js
+14. npm i @stripe/react-stripe-js
+go stripe.com -> copy API keys
 
 
+*download axios 
+15.npm i axios
+
+*Full-Stack part
+16.firebase init
+ -> functions -> javascript 
+
+ 17. npm i express
+
+ 18. npm i cors
+
+ 19. npm i stripe
+
+ 20.firebase emulators:start
 
 https://www.youtube.com/watch?v=RDV3Z1KCBvo
-5:08:24
+7:09:14
