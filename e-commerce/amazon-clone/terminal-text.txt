@@ -52,5 +52,8 @@ go stripe.com -> copy API keys
 
  20.firebase emulators:start
 
+ *firebase
+ go to Cloud Firestore
+
 https://www.youtube.com/watch?v=RDV3Z1KCBvo
-7:09:14
+07:14:05
