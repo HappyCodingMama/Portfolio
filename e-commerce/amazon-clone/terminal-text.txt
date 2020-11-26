@@ -49,11 +49,23 @@ go stripe.com -> copy API keys
  18. npm i cors
 
  19. npm i stripe
-
+---------------------------------------
+ *** after (cd functions) ***
  20.firebase emulators:start
 
  *firebase
  go to Cloud Firestore
 
+ 21.npm install moment
+ 
+ *deploying functions
+ 22. firebase deploy --only functions
+ if you fail because of Firebase pricing plans
+---------------------------------------------------
+
+*the last step
+23.npm run build
+24. firebase deploy --only hosting
+
 https://www.youtube.com/watch?v=RDV3Z1KCBvo
-07:14:05
+08:17:00
